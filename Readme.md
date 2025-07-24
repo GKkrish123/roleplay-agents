@@ -33,32 +33,6 @@ A production-ready, modular **Machine Learning Data Agent** designed for intelli
 
 ---
 
-## Project Structure
-
-```
-
-ml\_data\_agent/
-├── agent.py               # Core Agent class
-├── ingestion/
-│   ├── csv\_loader.py
-│   ├── json\_loader.py
-│   └── parquet\_loader.py
-├── preprocess/
-│   ├── base.py
-│   ├── nlp.py
-│   └── vision.py
-├── api/
-│   └── main.py            # Optional: FastAPI or Flask entrypoint
-├── utils/
-│   ├── logger.py
-│   └── metrics.py
-├── tests/
-│   └── test\_agent.py
-├── requirements.txt
-└── README.md
-
-````
-
 ---
 
 ## Getting Started
@@ -81,7 +55,7 @@ cleaned = agent.preprocess(df)
 ### API Mode (Optional)
 
 ```bash
-uvicorn api.main:app --host 0.0.0.0 --port 8000
+fastapi dev main.py
 ```
 
 ---
@@ -97,20 +71,5 @@ Use `config.json` to define default preprocessing rules, batch size, and timeout
 ```bash
 pytest --cov=ml_data_agent tests/
 ```
-
-Target: **>90% coverage**
-
----
-
-## Contributing
-
-Follow the [Git Guidelines](https://github.com/PhrasIQ)
-Branch: `feature/ml-data-agent`
-Commits: `feat(ml-agent): initial ingestion module added`
-
----
-
-## License
-MIT © PhrasIQ
 
 
