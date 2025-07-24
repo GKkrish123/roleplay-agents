@@ -1,9 +1,9 @@
 
 
 ```markdown
-# Machine Learning Data Agent
+# AI Machine Learning Data Agents
 
-A production-ready, modular **Machine Learning Data Agent** designed for intelligent ingestion, preprocessing, and management of structured and unstructured datasets. Built for integration with data-centric AI platforms such as **InsightOS**.
+A production-ready, modular **Machine Learning Data Agent** designed for intelligent ingestion, preprocessing, and management of structured and unstructured datasets. Built for integration with data-centric AI platforms.
 
 ---
 
@@ -24,7 +24,7 @@ A production-ready, modular **Machine Learning Data Agent** designed for intelli
   Extendable interface for NLP and vision data augmentation.
 
 - **API Integration Ready**  
-  Exposes agent via REST endpoint for usage within `InsightOS` and other microservices.
+  Exposes agents via REST endpoint.
 
 - **Robust Architecture**  
   - Logging (structured + traceable)  
