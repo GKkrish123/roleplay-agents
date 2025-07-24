@@ -3,7 +3,7 @@
 ```markdown
 # AI Machine Learning Data Agents
 
-A production-ready, modular **Machine Learning Data Agent** designed for intelligent ingestion, preprocessing, and management of structured and unstructured datasets. Built for integration with data-centric AI platforms.
+A modular **Machine Learning Data Agent** designed for intelligent ingestion, preprocessing, and management of structured and unstructured datasets. Built for integration with data-centric AI platforms.
 
 ---
 
