@@ -1,0 +1,4 @@
+{
+  "single_source_prompt": "Summarise this article in 5 concise bullets, cite data.",
+  "synthesis_prompt": "Combine the bullets into a single objective answer; end with CITATIONS:"
+}

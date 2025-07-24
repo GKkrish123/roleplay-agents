@@ -1,0 +1,8 @@
+# python -> 3.11.13
+numpy
+pandas
+bs4
+requests
+fastapi
+fastapi[standard]
+python-dotenv
