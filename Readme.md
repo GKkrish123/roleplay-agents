@@ -33,8 +33,6 @@ A production-ready, modular **Machine Learning Data Agent** designed for intelli
 
 ---
 
----
-
 ## Getting Started
 
 ### Prerequisites
